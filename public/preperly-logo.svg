@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#cc0000" text-anchor="middle" dominant-baseline="middle">Preperly!</text>
+  <circle cx="40" cy="40" r="20" fill="#cc0000" opacity="0.8"/>
+  <path d="M30,40 Q40,25 50,40" stroke="#ffffff" stroke-width="3" fill="none"/>
+</svg>
+
