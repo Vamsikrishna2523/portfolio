@@ -85,7 +85,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
                 <div className="bg-zinc-800 rounded-lg p-4">
                   <p className="text-sm text-zinc-400">Phone</p>
-                  <p className="text-white">+91 9876543210</p>
+                  <p className="text-white">+91 8121602659</p>
                 </div>
               </div>
 

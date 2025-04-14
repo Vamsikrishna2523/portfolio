@@ -7,25 +7,25 @@ export default function IllustrationsPage() {
       id: 1,
       title: "Abstract Shapes",
       description: "Digital illustration with geometric forms",
-      src: "/artwork/Untitled_Artwork 6.png",
+      src: "/artWork/Untitled_Artwork 6.png",
     },
     {
       id: 2,
       title: "Character Design",
       description: "Mascot creation for brand identity",
-      src: "/artwork/Untitled_Artwork 7.png",
+      src: "/artWork/Untitled_Artwork 7.png",
     },
     {
       id: 3,
       title: "Nature Scene",
       description: "Environmental concept art",
-      src: "/artwork/Untitled_Artwork 8.png",
+      src: "/artWork/Untitled_Artwork 8.png",
     },
     {
       id: 4,
       title: "Editorial",
       description: "Magazine illustration series",
-      src: "/artwork/Untitled_Artwork 9.png",
+      src: "/artWork/Untitled_Artwork 9.png",
     },
     {
       id: 5,
@@ -41,41 +41,6 @@ export default function IllustrationsPage() {
       id: 7,
       title: "Pattern Design",
       description: "Repeatable pattern for textiles",
-    },
-    {
-      id: 8,
-      title: "Portrait",
-      description: "Digital painting of a person",
-    },
-    {
-      id: 9,
-      title: "Social Media",
-      description: "Illustrated content for online platforms",
-    },
-    {
-      id: 10,
-      title: "T-Shirt Design",
-      description: "Artwork for clothing merchandise",
-    },
-    {
-      id: 11,
-      title: "Web Illustration",
-      description: "Custom graphics for websites",
-    },
-    {
-      id: 12,
-      title: "YouTube Thumbnail",
-      description: "Visuals for video content",
-    },
-    {
-      id: 13,
-      title: "Zine Art",
-      description: "Illustrations for self-published books",
-    },
-    {
-      id: 14,
-      title: "Book Cover",
-      description: "Artwork for novels and publications",
     },
   ];
 
@@ -100,8 +65,8 @@ export default function IllustrationsPage() {
             <div className="aspect-square relative">
               <Image
                 src={
-                  `/artwork/Untitled_Artwork ${illustration.id + 6}.png` ||
-                  `/artwork/Untitled_Artwork ${illustration.id + 6}.jpg` ||
+                  `/artWork/Untitled_Artwork ${illustration.id + 6}.png` ||
+                  `/artWork/Untitled_Artwork ${illustration.id + 6}.jpg` ||
                   `/placeholder.svg?height=500&width=500&text=Illustration+${illustration.id}`
                 }
                 alt={illustration.title}

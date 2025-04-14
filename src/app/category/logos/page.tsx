@@ -7,7 +7,7 @@ export default function LogosPage() {
       id: 1,
       title: "Tech Startup",
       description: "Modern logo for software company",
-      src: "/preperlyLogo.png",
+      src: "/perperlyLogo.png",
     },
   ];
 
