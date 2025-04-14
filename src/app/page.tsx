@@ -104,7 +104,7 @@ export default function Home() {
                   transition={{ duration: 0.7, delay: 0.5 }}
                   className="text-4xl md:text-5xl font-bold"
                 >
-                  I&aposm Vamsi
+                  I&apos;m Vamsi
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0 }}
@@ -153,11 +153,11 @@ export default function Home() {
                 className="relative h-32 w-32 rounded-full overflow-hidden border-4 border-zinc-800"
               >
                 <Image
-                  src="/system.png"
+                  src="/vamsiPic.png"
                   alt="Vamsi profile picture"
                   width={128}
                   height={128}
-                  className="object-cover"
+                  className="object-cover w-full h-full"
                 />
               </motion.div>
             </div>
@@ -345,7 +345,7 @@ export default function Home() {
               <Link href="/category/logos" className="block h-full">
                 <div className="bg-gradient-to-br from-zinc-900 to-red-900/30 backdrop-blur-sm rounded-3xl p-6 transition-all duration-500 hover:shadow-xl hover:shadow-red-500/10 group h-full">
                   <div className="flex justify-between">
-                    <h3 className="text-xl font-medium">Logo&aposs</h3>
+                    <h3 className="text-xl font-medium">Logo&apos;s</h3>
                     <motion.div
                       whileHover={{ rotate: 45 }}
                       transition={{ duration: 0.3 }}
